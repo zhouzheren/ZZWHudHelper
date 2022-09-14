@@ -1,0 +1,22 @@
+{
+  "name": "ZZWHudHelper",
+  "version": "0.1.0",
+  "summary": "A short description of ZZWHudHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/a595429717@163.com/ZZWHudHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "a595429717@163.com": "a595429717@163.com"
+  },
+  "source": {
+    "git": "https://github.com/a595429717@163.com/ZZWHudHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZZWHudHelper/Classes/**/*"
+}

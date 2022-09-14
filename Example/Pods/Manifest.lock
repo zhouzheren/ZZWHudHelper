@@ -1,0 +1,16 @@
+PODS:
+  - ZZWHudHelper (0.1.0)
+
+DEPENDENCIES:
+  - ZZWHudHelper (from `../`)
+
+EXTERNAL SOURCES:
+  ZZWHudHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZWHudHelper: 980bb676d94f57cdc792de0f294be30f90159cd8
+
+PODFILE CHECKSUM: 1ddeec2b819525d144f972f74e8e8caffad2372d
+
+COCOAPODS: 1.11.3

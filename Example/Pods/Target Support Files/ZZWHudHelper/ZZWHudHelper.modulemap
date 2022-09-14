@@ -1,0 +1,6 @@
+framework module ZZWHudHelper {
+  umbrella header "ZZWHudHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
