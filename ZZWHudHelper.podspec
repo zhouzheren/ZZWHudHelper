@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/zhouzheren/ZZWHudHelper.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'ZZWHudHelper/Classes/**/*'
-  s.dependency 'MBProgressHUD', '~> 0.9.2' #需要依赖的三方库
+  s.dependency 'MBProgressHUD','~> 0.9.2' #需要依赖的三方库
 end

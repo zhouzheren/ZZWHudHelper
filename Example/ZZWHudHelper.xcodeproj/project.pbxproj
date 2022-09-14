@@ -62,9 +62,9 @@
 		78039D65C3840D5AC088AD35 /* Pods_ZZWHudHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZWHudHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		980023201737B88FC210704D /* Pods-ZZWHudHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWHudHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZWHudHelper_Tests/Pods-ZZWHudHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB488B68A72A50059050312C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DD83168F356961A84B5FFD22 /* ZZWHudHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZWHudHelper.podspec; path = ../ZZWHudHelper.podspec; sourceTree = "<group>"; };
-		E28868F1DAF33866AFD4F2C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB488B68A72A50059050312C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD83168F356961A84B5FFD22 /* ZZWHudHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZWHudHelper.podspec; path = ../ZZWHudHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E28868F1DAF33866AFD4F2C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E5B8706BAA02377B50248935 /* Pods-ZZWHudHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWHudHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZWHudHelper_Tests/Pods-ZZWHudHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2E74FC4BE81F6ADA95651AE /* Pods_ZZWHudHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZWHudHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				980023201737B88FC210704D /* Pods-ZZWHudHelper_Tests.debug.xcconfig */,
 				E5B8706BAA02377B50248935 /* Pods-ZZWHudHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

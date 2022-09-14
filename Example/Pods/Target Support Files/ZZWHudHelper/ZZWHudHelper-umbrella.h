@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZZWHudHelper.h"
 
 FOUNDATION_EXPORT double ZZWHudHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZZWHudHelperVersionString[];
