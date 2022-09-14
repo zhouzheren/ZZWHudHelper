@@ -1,15 +1,22 @@
 PODS:
-  - ZZWHudHelper (0.1.0)
+  - MBProgressHUD (0.9.2)
+  - ZZWHudHelper (0.1.0):
+    - MBProgressHUD (~> 0.9.2)
 
 DEPENDENCIES:
   - ZZWHudHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   ZZWHudHelper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZWHudHelper: 980bb676d94f57cdc792de0f294be30f90159cd8
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  ZZWHudHelper: 31931b49413beec1288f601a643c0d67207512ad
 
 PODFILE CHECKSUM: 1ddeec2b819525d144f972f74e8e8caffad2372d
 

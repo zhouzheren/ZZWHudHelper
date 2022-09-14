@@ -7,7 +7,7 @@
 //
 
 #import "ZZWViewController.h"
-
+#import "ZZWHudHelper.h"
 @interface ZZWViewController ()
 
 @end
@@ -25,5 +25,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [[ZZWHudHelper shareInstance] showOnlyText:@"hud测试"];
+}
 @end
